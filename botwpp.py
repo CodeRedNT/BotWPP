@@ -56,6 +56,6 @@ for idx, number in enumerate(numbers):
 		sleep(1)
 		click_btn.click()
 		sleep(3)
-		print('Mensagem enviada para o número: ' + number)
+		print('Mensagem enviada com sucesso para o número: ' + number)
 	except Exception as e:
 		print('Falha ao enviar mensagem para o número: ' + number + str(e))
